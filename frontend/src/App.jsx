@@ -1,10 +1,13 @@
-import Whiteboard from "./Whiteboard";
+import WhiteBoard from "./components/WhiteBoard";
+import NavBar from "./components/NavBar"
+import WhiteBoardPage from "./components/WhiteBoardPage";
 
 function App() {
   return (
     <div>
-      <h1 className="flex justify-center bg-gray-700 p-4 text-3xl font-bold">Online Whiteboard MVP</h1>
-      <Whiteboard roomName="demo" />
+      <NavBar/>
+      <WhiteBoard roomName = "Demo"/>
+      {/* <WhiteBoardPage roomName = "Demo"/> */}
     </div>
   );
 }
