@@ -1,13 +1,11 @@
-import WhiteBoard from "./components/WhiteBoard";
+import CurrWhiteboard from "./components/CurrWhiteBoard";
 import NavBar from "./components/NavBar"
-import WhiteBoardPage from "./components/WhiteBoardPage";
 
 function App() {
   return (
     <div>
       <NavBar/>
-      <WhiteBoard roomName = "Demo"/>
-      {/* <WhiteBoardPage roomName = "Demo"/> */}
+      <CurrWhiteboard roomName="Demo" />
     </div>
   );
 }
